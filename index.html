@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ORPA Vision Travels and ORPA Vision Consult help clients book travel, reserve hotels, hire cars, and stay compliant with Nigerian statutory obligations."
+    />
+    <title>ORPA Vision | Travels & Consult</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="ORPA Vision home">
+        <img src="./assets/logo-mark.png" alt="ORPA Vision logo" />
+        <span>
+          <strong>ORPA Vision</strong>
+          <small>Travels & Consult</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" data-nav>
+        <a href="#services">Services</a>
+        <a href="#booking">Travel Desk</a>
+        <a href="#compliance">Compliance</a>
+        <a href="#gallery">Graphics</a>
+        <a class="nav-cta" href="#contact">Contact Us</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Nigeria-based travel and business support</p>
+          <h1>Travel smarter. Stay compliant. Grow with confidence.</h1>
+          <p>
+            ORPA Vision helps you handle flights, hotels, car hire, business
+            development, and statutory compliance with one responsive team.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#booking">Plan a Trip</a>
+            <a class="btn secondary" href="#compliance">Check Compliance</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="ORPA Vision highlights">
+          <span>24/7 travel guidance</span>
+          <strong>705 277 1567</strong>
+          <small>Flight bookings, hotel reservations, compliance support</small>
+        </aside>
+      </section>
+
+      <section class="ticker" aria-label="Service highlights">
+        <span>Domestic & international flights</span>
+        <span>Hotel reservations</span>
+        <span>Reliable car hire</span>
+        <span>PAYE, VAT & WHT filing</span>
+        <span>PENCOM, NSITF & ITF certification</span>
+      </section>
+
+      <section class="section split" id="services">
+        <div>
+          <p class="eyebrow">What we do</p>
+          <h2>Two service desks, one dependable ORPA Vision experience.</h2>
+          <p>
+            The graphics show a brand built around convenience, speed, and
+            professional support. This website keeps that same energy while
+            making the information easy to act on.
+          </p>
+        </div>
+        <div class="service-tabs" data-tabs>
+          <div class="tab-buttons" role="tablist" aria-label="Service categories">
+            <button class="active" type="button" role="tab" aria-selected="true" data-tab="travel">Travels</button>
+            <button type="button" role="tab" aria-selected="false" data-tab="consult">Consult</button>
+          </div>
+          <div class="tab-panel active" data-panel="travel">
+            <h3>ORPA Vision Travels</h3>
+            <p>Let us take the stress out of your travels.</p>
+            <ul class="check-list">
+              <li>Domestic and international flight bookings</li>
+              <li>Hotel reservations with comfort guaranteed</li>
+              <li>Reliable car hire services</li>
+              <li>Travel support from Monday to Sunday</li>
+            </ul>
+          </div>
+          <div class="tab-panel" data-panel="consult">
+            <h3>ORPA Vision Consult</h3>
+            <p>The pivot to corporate survival in Nigeria.</p>
+            <ul class="check-list">
+              <li>Business development and policy formulation</li>
+              <li>Accounting software setup and training</li>
+              <li>Business risk assessment and business plan drafting</li>
+              <li>Regulatory compliance certifications and filing</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section booking-section" id="booking">
+        <div class="section-head">
+          <p class="eyebrow">Interactive travel desk</p>
+          <h2>Build a quick trip request.</h2>
+          <p>Choose your route, trip type, and travel details. The button prepares a ready-to-send WhatsApp request.</p>
+        </div>
+        <div class="booking-grid">
+          <form class="booking-card" data-booking-form>
+            <div class="pill-group" aria-label="Trip type">
+              <button class="active" type="button" data-trip="Round trip">Round Trip</button>
+              <button type="button" data-trip="One-way">One-way</button>
+              <button type="button" data-trip="Multi-city">Multi-city</button>
+            </div>
+            <label>
+              From
+              <input name="from" value="Murtala Muhammed International Airport" />
+            </label>
+            <label>
+              To
+              <input name="to" value="Grantley Adams International (BGI)" />
+            </label>
+            <div class="form-row">
+              <label>
+                Leaving
+                <input name="date" type="date" />
+              </label>
+              <label>
+                Passengers
+                <select name="passengers">
+                  <option>1 Passenger</option>
+                  <option>2 Passengers</option>
+                  <option>3 Passengers</option>
+                  <option>4+ Passengers</option>
+                </select>
+              </label>
+            </div>
+            <label>
+              Class
+              <select name="class">
+                <option>Economy</option>
+                <option>Premium Economy</option>
+                <option>Business</option>
+                <option>First Class</option>
+              </select>
+            </label>
+            <button class="btn primary full" type="submit">Prepare WhatsApp Request</button>
+          </form>
+          <div class="booking-preview">
+            <img src="./assets/booking-platform-web.jpg" alt="ORPA Vision travel booking interface" />
+            <div class="floating-note">
+              <strong>Best value focus</strong>
+              <span>Flights, hotels, flexible dates, and destination support.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section compliance" id="compliance">
+        <div class="section-head">
+          <p class="eyebrow">Corporate compliance</p>
+          <h2>Stay compliant. Stay profitable. Stay ahead.</h2>
+          <p>
+            Use the mini checklist to see the ORPA Vision Consult services that
+            may be relevant to your organisation.
+          </p>
+        </div>
+        <div class="compliance-grid">
+          <div class="check-panel">
+            <label><input type="checkbox" data-score checked /> PAYE, VAT & WHT monthly filing</label>
+            <label><input type="checkbox" data-score /> PENCOM compliance certification</label>
+            <label><input type="checkbox" data-score /> NSITF compliance certification</label>
+            <label><input type="checkbox" data-score /> ITF compliance certification</label>
+            <label><input type="checkbox" data-score /> Business plan drafting</label>
+            <label><input type="checkbox" data-score /> Business policy formulation</label>
+            <div class="score-card">
+              <span>Selected support areas</span>
+              <strong data-score-output>1 of 6</strong>
+            </div>
+          </div>
+          <div class="consult-card">
+            <img src="./assets/compliance-services-web.jpg" alt="ORPA Vision Consult compliance services flyer" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section process">
+        <div class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2>Clear steps from first message to completion.</h2>
+        </div>
+        <div class="steps" data-steps>
+          <button class="step active" type="button" data-step="1">
+            <span>01</span>
+            Share your need
+          </button>
+          <button class="step" type="button" data-step="2">
+            <span>02</span>
+            Get guidance
+          </button>
+          <button class="step" type="button" data-step="3">
+            <span>03</span>
+            Confirm details
+          </button>
+          <button class="step" type="button" data-step="4">
+            <span>04</span>
+            Receive support
+          </button>
+        </div>
+        <div class="step-detail" data-step-detail>
+          Tell ORPA Vision whether you need travel support, business support, or statutory compliance guidance.
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="section-head">
+          <p class="eyebrow">Design assets</p>
+          <h2>Brand graphics used across the page.</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure>
+            <img src="./assets/travel-services-web.jpg" alt="ORPA Vision Travels service graphic" />
+            <figcaption>Travel service campaign</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/consult-overview-web.jpg" alt="ORPA Vision Consult business development graphic" />
+            <figcaption>Business development and compliance</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/mobile-booking-web.jpg" alt="ORPA Vision mobile booking interface" />
+            <figcaption>Mobile travel booking interface</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section faq">
+        <div class="section-head">
+          <p class="eyebrow">Quick answers</p>
+          <h2>Frequently asked questions.</h2>
+        </div>
+        <div class="accordion" data-accordion>
+          <button type="button">Can ORPA Vision handle both local and international flights?</button>
+          <div>
+            Yes. The travel desk supports domestic and international flight bookings, hotel reservations, and car hire.
+          </div>
+          <button type="button">What compliance services are available?</button>
+          <div>
+            PAYE, VAT and WHT monthly filing, PENCOM, NSITF, ITF certification, personal income tax, TIN registration, and other regulatory compliance services.
+          </div>
+          <button type="button">How do I contact ORPA Vision?</button>
+          <div>
+            Call 08032850237 or 07052771567, or email orpavision@gmail.com.
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact ORPA Vision today</p>
+          <h2>Exceptional service. Guaranteed peace of mind.</h2>
+          <p>Secure your business, ensure compliance, and travel with confidence.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="tel:+2347052771567">Call 0705 277 1567</a>
+          <a class="btn secondary" href="mailto:orpavision@gmail.com">Email ORPA Vision</a>
+          <a class="btn ghost" href="https://wa.me/2347052771567" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="./assets/logo-mark.png" alt="" />
+      <p>ORPA Vision Travels & Consult</p>
+      <span>orpavision@gmail.com | 08032850237 | 07052771567</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
