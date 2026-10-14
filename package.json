@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node -e \"console.log('Static site ready for Vercel')\""
+    "build": "node -e \"const fs=require('fs'); if(!fs.existsSync('public/index.html')) throw new Error('public/index.html is missing'); console.log('Static site ready for Vercel: public')\""
   }
 }
